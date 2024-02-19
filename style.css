@@ -33,7 +33,6 @@ p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    border: 2px solid lightgreen;
 }
 #logo-column{
     background-image: url(images/background.jpg);
