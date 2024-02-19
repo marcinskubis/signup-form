@@ -9,10 +9,14 @@ body{
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     width: auto;
+    font-size: 18px;
 }
 a{
     text-decoration: none;
     color: green;
+}
+p{
+    max-width: 600px;
 }
 #submit-button{
     border-radius: 5px;
@@ -22,13 +26,14 @@ a{
     color: white;
     background-color: green;
     margin-top: 10px;
+    font-size: 1.1rem;
 }
 #main{
     min-height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    border: 2px solid lightgreen;
 }
 #logo-column{
     background-image: url(images/background.jpg);
@@ -62,7 +67,7 @@ a{
 }
 #page-content{
     background-color: #F9FAFB;
-    font-size: 14px;
+    flex-grow: 1;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -83,7 +88,7 @@ a{
     flex-direction: row;
     gap: 10px;
     margin-right: 50px;
-    max-width: 600px;
+    max-width: 800px;
 }
 #input-section > div > div{
     display: flex;
@@ -92,6 +97,7 @@ a{
 }
 #input-section > legend{
     width: 100%;
+    margin-bottom: 10px;
 }
 #login{
     margin-bottom: 100px;
@@ -103,9 +109,10 @@ a{
     width: 100%;
 }
 input{
-    width: 150px;
+    width: 200px;
+    height: 1.75rem;
 }
 label{
-    font-size: 8px;
+    font-size: 0.7rem;
     color: #80868E;
 }
